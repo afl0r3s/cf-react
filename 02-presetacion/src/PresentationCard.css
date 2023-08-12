@@ -1,0 +1,23 @@
+.presentation-card{
+  background-color: #ffffff;
+  padding: 1rem;
+  width: min(400px, 100%);
+  aspect-ratio: 16/9;
+  box-shadow: 10px 9px 19px 0px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 10px 9px 19px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 10px 9px 19px 0px rgba(0,0,0,0.43);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.presentation-card h1 {
+  font-size: 1.4em;
+}
+
+.presentation-card img {
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
